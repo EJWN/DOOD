@@ -119,5 +119,3 @@ Instructions to prepare a deployment
   - End-to-end tests with 0 errors
 - Push the repository
 
-
-
