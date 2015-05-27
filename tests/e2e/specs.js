@@ -6,7 +6,6 @@ var config = require('../../server/config/config.js')[env],
 console.log('>>>>>', env, '<<<<<');
 
 describe('Book test homepage', function () {
-
     beforeEach(function () {
         browser.get('http://' + localConfig.host + ':' + config.port);
     });
