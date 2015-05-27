@@ -13,9 +13,8 @@ describe('Book test homepage', function () {
 
     it('should get the titles', function () {
 
-        expect(browser.getTitle()).toBe('Book demo');
-        expect(element(by.tagName('h1')).getText()).toBe('Book demo');
-        expect(element(by.tagName('h2')).getText()).toBe('Books');
+        expect(browser.getTitle()).toBe('DOOD');
+        expect(element(by.tagName('h1')).getText()).toBe('DOOD');
 
         // Get CSS value
         element(by.tagName('h1')).getCssValue('color')
